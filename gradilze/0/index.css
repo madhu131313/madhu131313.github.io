@@ -1,0 +1,72 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.btn {
+    background: linear-gradient(to right,#fa8961, #f82559);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;  
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 23px;
+}
+
+.present {
+    padding: 0 26px;
+    height: 90vh;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+
+}
+
+.present-regular {
+    margin-bottom: 25px;
+}
+
+.head1 {
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.t-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.theme1 {
+    background: linear-gradient(to right,#fa8961, #f82559);
+}
+
+.theme2 {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.theme3 {
+    background: linear-gradient(to right,#45B649, #DCE35B);
+}
+
+.app-bar {
+    height: 52px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background: linear-gradient(to right,#fa8961, #f82559);
+    color: white;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
