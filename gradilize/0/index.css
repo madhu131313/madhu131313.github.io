@@ -50,7 +50,13 @@ body {
 .t-box {
   width: 100px;
   height: 100px;
+  font-size: 6em;
+  color: white;
+  font-weight: 500;
   display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
 .theme1 {
@@ -62,7 +68,7 @@ body {
 }
 
 .theme3 {
-  background: linear-gradient(to right, #45b649, #dce35b);
+  background: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
 }
 
 .app-bar {
@@ -75,6 +81,10 @@ body {
   padding-left: 20px;
   font-size: 24px;
   font-weight: 600;
+  /* color: rgb(84, 80, 81); */
+  box-shadow: black 0px 1px 5px;
+  position: fixed;
+  width: 100%;
 }
 
 .btn2 {
